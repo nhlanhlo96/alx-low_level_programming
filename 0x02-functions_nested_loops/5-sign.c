@@ -27,6 +27,4 @@ int print_sign(int n)
 		return (1);
 	}
 }
-© 2022 GitHub, Inc.
-Terms
-Pri
+
