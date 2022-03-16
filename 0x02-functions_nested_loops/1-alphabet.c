@@ -1,4 +1,3 @@
-nclude <stdio.h>
 #include "main.h"
 /**
  *  * print_alphabet - Prints lowercase alphabets
@@ -15,9 +14,8 @@ nclude <stdio.h>
  *  * Return: Always 0 (Success)
  *   */
  int main(void)
-{
-		print_alphabet();
-			return (0);
-				_putchar(alph);
-					_putchar('\n');
+{	print_alphabet();
+		return (0);
+	_putchar(alph);
+	_putchar('\n');
 }
