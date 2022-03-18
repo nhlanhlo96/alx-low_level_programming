@@ -1,19 +1,14 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * _isdigit - checks if entered parameter c
- * is a digit
+ *_isdigit - checks for a digit.
+ *@c: input.
  *
- * Return: 1 if c is digit
- * 0 if not
- *
- * @c: integer parameter
+ *Return: 1 if c is a digit
+ *0 otherwise.
  */
-
 int _isdigit(int c)
 {
-	if (c >= '0' && c <= '9')
+	if ((c >= '0') && (c <= '9'))
 	{
 		return (1);
 	}
